@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    transition: all .3s ease-in;
+
+}
+
+.landing{
+    height: 90vh;
+    width: 100%;
+    background-color: #219C90;
+}
+
+nav{
+    height: 100px;
+    width: 100%;
+    padding: 0% 5% 0% 2.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.logo p a{
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+}
+
+nav img{
+    height: 70px;
+    margin-top: 5px;
+}
+
+.navinfo{
+    display: flex;
+    gap: 3rem;
+}
+
+.info{
+    display: flex;
+    gap: 2rem;
+}
+
+.info a{
+    margin-top: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.info a:hover{
+    padding-bottom: 1px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+}
+
+.navlogin{
+    display: flex;
+    gap: 0.7rem;
+    height: 100%;
+}
+
+.login{
+    border-radius: 10px;
+    color: white;
+    font-size: 0.9rem;
+    padding: 5px 15px;
+    border: 1px solid #F4CE14;
+    background-color: #219C90;
+}
+
+.login:hover{
+    background-color: #F4CE14;
+    color: #219C90;
+}
+
+.signUp{
+    border-radius: 10px;
+    font-size: 0.9rem;
+    width: 80px;
+    height: 33px;
+    background-color: #F4CE14;
+    border: none;
+    color: #219C90;
+}
+
+.signUp:hover{
+    border: 1px solid #F4CE14;
+    color: white;
+    background-color: #219C90;
+}
+
